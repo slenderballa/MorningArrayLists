@@ -23,7 +23,7 @@ public class ArrayListController
 	{
 		for(int spot = 0; spot < firstWords.size(); spot ++)
 		{
-			JOptionPane.showMessageDialog(null, firstWords.get(spot) = " is at spot#" + spot);
+			JOptionPane.showMessageDialog(null, firstWords.get(spot) + " is at spot#" + spot);
 		}
 	}
 }
